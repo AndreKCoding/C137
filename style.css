@@ -1,0 +1,43 @@
+body
+{
+    background-size: cover;
+}
+
+.header
+{
+    width: 100%;
+    top: 0;
+    line-height: 2;
+    font-size: 25px;
+    margin: 0;
+}
+
+.info
+{
+    width: 100%;
+    top: 0;
+    line-height: 2;
+    font-size: 15px;
+    margin: 0;
+}
+
+input
+{
+    width: 20%;
+    height: 3%;
+}
+
+#start
+{
+    width: 5%;
+}
+
+#status, #result
+{
+    width: 20%;
+}
+
+canvas
+{
+    background-color: white;
+}

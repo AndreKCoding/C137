@@ -1,0 +1,38 @@
+<html>
+    <head>
+
+      <title>Detecção de Pessoas</title>
+
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href = "https://fonts.googleapis.com/css?family=Kanit&display=swap" rel = "stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body background="background.jpg">
+        <center>
+            -- Elementos Html --
+            <h1 class="btn btn-primary header">Localizador de Objetos
+                <h3 class="btn btn-info info">Para Utilizar Apenas Coloque Um Objeto Em Frente A Camera E Logo Será Detectado</h3>
+            </h1>
+                <br> <br> <br>
+            <input id="input" class="btn btn-dark">
+                <br> <br>
+            <button id="start" class="btn btn-success" onclick="start()">Iniciar</button>
+                <br> <br>
+            <h3 id="status" class="btn btn-danger">Status: Vazio</h3>
+            <h3 id="result" class="btn btn-danger">Não Encontrado</h3>
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</html>
